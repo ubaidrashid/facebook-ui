@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: rgba(185, 185, 185, 0.808);
+}
+
+main {
+    width: 80%;
+}
+
+.main-child {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.main-child img{
+    height: 100%;
+    width: 100%;
+}
+.main-first {
+    display: flex;
+    gap: 25px;
+}
+
+.main-first-img {
+    height: 50px;
+    width: 50px;
+}
+
+.main-first-img img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.main-first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.main-first-head {
+    font-size: clamp(15px, 2vw, 17px);
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.main-second {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-seconds-bold {
+    font-size: clamp(16px, 2vw, 18px);
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.main-fourth {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(185, 185, 185, 0.808);
+    padding-block: 15px;
+}
+
+.bright-blue-color {
+    font-size: clamp(15px, 2vw, 17px);
+    color: blue;
+    font-weight: 700;
+}
+
+.btn button {
+    padding-block: 10px;
+    border: none;
+    border-radius: 8px;
+    padding-inline: 13px;
+    color: white;
+    font-weight: 400;
+    background-color: blue;
+}
+
+.main-fifth {
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(185, 185, 185, 0.808);
+    padding-block: 15px;
+}
+
+.iconss {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.like {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+
+.heart {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+.main-sixth {
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+display: flex;
+justify-content: center;
+align-items: center;
+    gap: 3px;
+}
+.icons span {
+    color: rgba(57, 57, 57, 0.819);
+    text-transform: capitalize;
+}
